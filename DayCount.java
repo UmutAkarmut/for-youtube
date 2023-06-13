@@ -6,27 +6,27 @@ public class GunHesaplama {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("[0-6] arası sayı giriniz: " );
+		System.out.print("[0-6] arasÃ½ sayÃ½ giriniz: " );
 		
 		byte number = scan.nextByte();
 		
 		switch(number % 7) {
 		
 		case 0:{
-			System.out.println("pazartesi "+"haftaiçi");
+			System.out.println("pazartesi "+"haftaiÃ§i");
 			break;
 		}
 		case 1:{
-			System.out.println("salı "+"haftaiçi");
+			System.out.println("salÃ½ "+"haftaiÃ§i");
 		}
 		case 2:{
-			System.out.println("çarşamba "+"haftaiçi");
+			System.out.println("Ã§arÃ¾amba "+"haftaiÃ§i");
 		}
 		case 3:{
-			System.out.println("perşembe "+"haftaiçi");
+			System.out.println("perÃ¾embe "+"haftaiÃ§i");
 		}
 		case 4:{
-			System.out.println("cuma "+"haftaiçi");
+			System.out.println("cuma "+"haftaiÃ§i");
 			break;
 		}
 		case 5:{
