@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class LoopsExercise {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("sayý: ");
+		System.out.println("sayi: ");
 		int number1 = scan.nextInt();
-		System.out.println("sayý: ");
+		System.out.println("sayi: ");
 		int number2 = scan.nextInt();
 		int bolenler = 0;		
 		for(int i = 1; i <= number1 && i <= number2 ; i++) {
