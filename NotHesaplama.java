@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NotHesaplama {
+public class GradeCalculation {
 	public static void main(String[] args) {
 		
 		
