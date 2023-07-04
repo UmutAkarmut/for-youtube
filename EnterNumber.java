@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class KacSayiGirdin {
+public class EnterNumber {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -24,8 +24,8 @@ public class KacSayiGirdin {
 			}
 						
 		}while( sayi != 0);
-		System.out.println("negatif sayýlar adedi: "+ negatifCount + " negatif toplamý :"+ negatif +
-				" pozitif sayýlar adedi: "+ (pozitifCount- 1 ) +" pozitif toplamý :"+ pozitif 	);
+		System.out.println("negatif sayÃ½lar adedi: "+ negatifCount + " negatif toplamÃ½ :"+ negatif +
+				" pozitif sayÃ½lar adedi: "+ (pozitifCount- 1 ) +" pozitif toplamÃ½ :"+ pozitif 	);
 
 	
 	}
