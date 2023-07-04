@@ -1,4 +1,6 @@
-  public static int binarySearch(int[] arr, int key) {
+pblic class BinarySearch{
+
+public static int binarySearch(int[] arr, int key) {
     	
     	if(key == arr[arr.length / 2]) return arr.length / 2;
     	else {
@@ -10,3 +12,4 @@
     	} 	    	   	
     	return -1;
     }
+}
